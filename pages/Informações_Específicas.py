@@ -211,7 +211,7 @@ elif infor == "IRI":
 col1, col2 = st.columns([3, 2], gap="medium")
 
 if infor == "FWD":
-    tab1, tab2 = st.tabs(["Figuras", "Tabela"])
+    tab1, tab2 = st.tabs(["Figuras", "Mapa de Calor"])
 
     with tab1:
         col1, col2 = st.columns([3, 2], gap="medium")
